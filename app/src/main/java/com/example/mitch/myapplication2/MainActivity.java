@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
         });
         // test git
         // test git2
+        // test git3
 
         stopAll.setOnClickListener(new View.OnClickListener() {
             @Override
