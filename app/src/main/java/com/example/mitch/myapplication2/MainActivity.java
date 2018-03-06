@@ -45,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         // test git
+        // test git2
 
         stopAll.setOnClickListener(new View.OnClickListener() {
             @Override
