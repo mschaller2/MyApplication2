@@ -3,4 +3,7 @@
     <string name="edit_message">Enter a message</string>
     <string name="button_send">Send</string>
     <string name="play_sound">Press Me</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="enter_search_text">Enter Text:"</string>
+    <string name="search_string">search</string>
 </resources>

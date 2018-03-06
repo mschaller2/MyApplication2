@@ -1,5 +1,7 @@
 package com.example.mitch.myapplication2;
 
+import android.app.DownloadManager;
+import android.app.SearchManager;
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
@@ -7,6 +9,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+
+import java.net.URLEncoder;
 
 public class MainActivity extends AppCompatActivity {
     private int counter = 0;
@@ -66,4 +70,15 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
 
     }
+    public void sendMessage2(View view){
+
+        String query = "search";
+        Intent intent = new Intent(Intent.ACTION_WEB_SEARCH);
+        intent.putExtra(SearchManager.QUERY, query);
+        startActivity(intent);
+
+
+    }
+
+
 }
